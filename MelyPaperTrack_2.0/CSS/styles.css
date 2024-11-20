@@ -1,0 +1,116 @@
+body {
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #ececec, #dbd6e0); /* Gradiente */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    min-height: 100vh;
+}
+
+h1 {
+    text-align: center;
+    margin-top: 20px;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #0056b3;
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(71, 71, 71, 0.452);
+}
+
+/* Estilos para el layout */
+
+/* Estilos para el sidebar */
+.sidebar {
+    width: 300px; /* Aumentar el ancho del sidebar */
+    background: linear-gradient(140deg, #41275c, #3b4492); /* Gradiente */
+    padding: 10px;
+    padding-left: 0px;
+    height: 100vh; /* Barra lateral de altura completa */
+    position: fixed, left;
+    top: 0;
+    left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; /* Centrado vertical */
+    align-items: center; /* Centrado horizontal */
+    margin-left: 0px;
+}
+
+/* Ajustar el contenedor principal para el nuevo ancho del sidebar */
+.container {
+    margin-left: 300px; /* Ajustar el margen izquierdo para hacer espacio para el sidebar más ancho */
+    padding-left: 50px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    background-color: #fff;
+    flex-grow: 1;
+}
+
+.sidebar nav ul {
+    list-style-type: none;
+    padding: 25px;
+    margin: 0;
+    width: 80%;
+}
+
+.sidebar nav ul li {
+    margin-bottom: 10px;
+    width: 50%; /* Asegura que los botones ocupen todo el ancho */  
+    margin-left: 10px;
+}
+
+.sidebar nav ul li a {
+    display: block;
+    text-align: center;
+    padding: 10px;
+    background-color: #4d5396;
+    color: white;
+    text-decoration: none;
+    border-radius: 12.5px;
+    font-weight: bold;
+    transition: background-color 0.4s ease;
+    width: 85%; /* Botones de ancho completo */
+    margin-left: 20px;
+    font-size: 14px;
+}
+
+.sidebar nav ul li a:hover {
+    background-color: #6bb1b1;
+}
+
+/* Footer ajustado al nuevo layout */
+footer {
+    text-align: center;
+    padding: 0px;
+    background: linear-gradient(170deg, #2d2857, #32203a); /* Gradiente */
+    color: white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 5%;
+    /* Ajuste para dejar espacio a la barra lateral */
+}

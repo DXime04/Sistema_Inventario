@@ -1,0 +1,21 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+}
+
+.welcome-container {
+    text-align: center;
+}
+
+.logo {
+    width: 300px; /* Aumentar el tamaño del logo */
+    margin-bottom: 20px;
+}
+
+h1 {
+    font-size: 2em;
+    color: #4f62d1;
+}

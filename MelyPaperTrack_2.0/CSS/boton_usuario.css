@@ -1,0 +1,49 @@
+/* Estilo del contenedor de información del usuario */
+.user-info-box {
+    background-color: #d6e7fc; /* Fondo blanco */
+    padding: 15px; /* Espaciado interno */
+    border-radius: 8px; /* Bordes redondeados */
+    box-shadow: 0 4px 6px rgba(26, 18, 39, 0.39); /* Sombra suave */
+    display: center; /* Flexbox para alinear los elementos */
+    align-items: center; /* Centra verticalmente */
+    justify-content: space-between; /* Espacio entre los elementos */
+    border: 1px solid #787bac; /* Borde delgado */
+    margin-left: 10px;
+    margin-right: -10px;
+}
+
+.user-details {
+    display: flex; /* Flexbox para icono y texto */
+    align-items: center; /* Centra verticalmente */
+}
+
+.user-icon {
+    font-size: 24px; /* Tamaño del icono */
+    color: #23724a; /* Color azul */
+    margin-right: 10px; /* Espacio entre icono y texto */
+}
+
+.user-text {
+    font-size: 16px; /* Tamaño de fuente */
+    color: #333; /* Color de texto */
+    font-weight: 500; /* Peso de fuente */
+}
+
+.btn-login,
+.btn-logout {
+    background-color: #007bff; /* Fondo azul */
+    color: white; /* Texto blanco */
+    padding: 8px 8px; /* Espaciado interno */
+    border-radius: 5px; /* Bordes redondeados */
+    text-decoration: none; /* Quitar subrayado */
+    font-size: 13px; /* Tamaño de fuente */
+    /* Peso de fuente */
+    transition: background-color 0.3s, transform 0.2s; /* Transiciones para color y escala */
+    width: 50px; /* Botones de ancho completo */
+}
+
+.btn-login:hover,
+.btn-logout:hover {
+    background-color: #639cda; /* Fondo azul oscuro en hover */
+    transform: scale(1.05); /* Escalar ligeramente en hover */
+}
